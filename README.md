@@ -25,3 +25,11 @@ El diseño responde al estilo One page y además incluye 5 páginas a las que se
 
 ● Contenido: Información sobre nuestros servicios y portfolio de trabajos realizados.
 ● Funcionalidades: Formulario de contacto.
+
+
+6. Integrantes del grupo
+●  Martín Portillo martinportillo84@gmail.com
+● Romina Herrera romina-herrera@hotmail.com
+●  Gabriel Silva gsaumeth@gmail.com
+●  Fabio Capano capanofabio1@gmail.com
+●  Sebastian Cortes Seba_14bche@hotmail.com
