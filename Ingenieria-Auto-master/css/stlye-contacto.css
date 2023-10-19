@@ -1,0 +1,149 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #24303c;
+    color: white;
+}
+
+
+
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+
+    background-image: url("../Images/Auto01.png");
+    background-size: cover;
+    background-position: center;
+    opacity: 1; /* Ajusta la opacidad según tus preferencias */
+    z-index: -1;  /*Coloca la imagen de fondo detrás del contenido */
+    
+    
+}
+
+h1 {
+    padding: 0;
+    margin:0;
+    color: rgb(228, 221, 241);
+}
+
+header b {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    font-size: 12px;
+}
+
+
+/*barra navegacion*/
+nav {
+    background-color: #0c0b0b;
+    color: white;
+    padding: 5px;
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    flex: wrap;
+    justify-content:space-between;
+    padding: 5px;
+    margin: 0;
+}
+
+nav li {
+    flex: 1 0 auto;
+    text-align: center;
+}
+
+nav ul a {
+    display: block;
+    text-decoration: none;
+    color: hsl(0, 14%, 97%);
+    padding: 5px 0;
+}
+
+nav ul a:hover {
+    background: hsl(251, 92%, 14%);
+    color: rgb(88, 88, 170);
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 40px;
+    margin-top: 20px;
+}
+
+
+
+.mapa{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+
+@media all and (max-width: 599px) {
+
+
+
+    nav {
+        background-color: #24303c;
+        color: white;
+        padding: 0;
+        margin: 0;
+        width: auto;
+        
+    }
+
+
+    
+    nav ul {
+        list-style-type: none;
+        display: block;
+        padding: 0;
+        margin: 0;
+        float: none;
+        box-sizing: border-box;
+        
+    }
+
+    nav ul li a {
+    display: block;
+    width: 100%;
+    margin-bottom: 5px;
+    padding: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: #000407;
+    width: 100%;
+} 
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 0px;
+    margin-top: 0px;
+}
+
+
+
+.mapa{
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+
+}
+
+    
